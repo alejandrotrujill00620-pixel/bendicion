@@ -1,0 +1,55 @@
+/* Colores de fondo y letra */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee; 
+    color: #333333; 
+    margin: 20px;
+}
+
+/* El menú de navegación */
+nav {
+    background-color: #004477;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* El formulario */
+form {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #cccccc;
+}
+
+input, textarea {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #999999;
+}
+
+/* El botón de enviar */
+button {
+    background-color: #228822; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #116611; 
+}
