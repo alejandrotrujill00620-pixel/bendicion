@@ -1,4 +1,4 @@
-/* Estilo general */
+/*estilo de la pagina*/
 body {
     font-family: Arial;
     background-color: #eaeaea;
@@ -6,13 +6,13 @@ body {
     margin: 10px;
 }
 
-/* Encabezado */
+/* del encabezado */
 header {
     background-color: #cccccc;
     padding: 10px;
 }
 
-/* Menú */
+/* Menu */
 nav ul {
     padding: 0;
 }
@@ -32,7 +32,7 @@ main {
     margin-top: 10px;
 }
 
-/* Secciones */
+/* Seccion */
 section {
     background-color: white;
     padding: 10px;
@@ -50,7 +50,7 @@ th, td {
     padding: 5px;
 }
 
-/* Pie de página */
+/* final de la pag o pie */
 footer {
     background-color: #cccccc;
     text-align: center;
