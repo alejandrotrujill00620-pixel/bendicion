@@ -2,15 +2,15 @@
 <html lang="es">
 
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contáctenos - Cursos Colombia S.A.S</title>
 </head>
 
 <body>
-
 <header>
-    <h1>Contactenos - Cursos Colombia S.A.S</h1>
+    <h1>Cursos Colombia</h1>
     <nav>
         <ul>
             <li><a href="index.html">Inicio</a></li>
@@ -21,121 +21,68 @@
 </header>
 
 <main>
-
-    //multimedia
     <section id="contacto">
         <h2>Contáctanos para más información</h2>
-
-
-        
-
-        <form id="form-contacto">
-            
-            <label for="nombre">Nombre Completo:</label><br>
-            <input type="text" id="nombre" name="nombre"><br><br>
-
-            <label for="correo">Correo Electrónico:</label><br>
-            <input type="email" id="correo" name="correo"><br><br>
-
-            <label for="mensaje">Mensaje:</label><br>
-            <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea><br><br>
-
-            <input type="submit" value="Enviar Mensaje">
-        </form>
-    </section>
-
-    <hr>
-
-    //multimedia
-    <section id="informacion">
-        <h2>Información de Atención</h2>
-
-        <table id="tabla-contacto">
-
-            <caption>Horarios y Tiempos de Respuesta</caption>
-
-            <thead>
-                <tr>
-                    <th scope="col">Tipo de Consulta</th>
-                    <th scope="col">Horario Disponible</th>
-                    <th scope="col">Tiempo de Respuesta</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <th scope="row">Soporte de Cursos</th>
-                    <td>Lunes a Viernes / 8am - 6pm</td>
-                    <td>24 horas</td>
-                </tr>
-
-                <tr>
-                    <th scope="row">Inscripciones</th>
-                    <td>Lunes a Sábado / 9am - 5pm</td>
-                    <td>12 horas</td>
-                </tr>
-
-                <tr>
-                    <th scope="row">Pagos y Facturación</th>
-                    <td>Lunes a Viernes / 8am - 4pm</td>
-                    <td>48 horas</td>
-                </tr>
-            </tbody>
-
-            <tfoot>
-                <tr>
-                    <td colspan="2">Tiempo máximo estimado</td>
-                    <td>48 horas</td>
-                </tr>
-            </tfoot>
-        </table>
-    </section>
-
-    <hr>
-
-    //multimedia
-    <section id="multimedia">
-        <h2>Multimedia y Ubicación</h2>
-
-        <figure>
-            <img src="https://www.ikusi.com/wp-content/uploads/2025/07/ikusi_ikusi_image_617-1000x667.jpg.webp" 
-                 alt="Imagen ilustrativa de atención al cliente"
-                 width="300" height="300">
-            <figcaption>Imagen ilustrativa de contacto.</figcaption>
-        </figure>
-
+    <main>
+        <section id="informacion">
+            <h2>Información de Atención</h2>
+            <table id="tabla-contacto">
+                <caption>Horarios y Tiempos de Respuesta</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Tipo de Consulta</th>
+                        <th scope="col">Horario Disponible</th>
+                        <th scope="col">Tiempo de Respuesta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Soporte de Cursos</th>
+                        <td>Lunes a Viernes / 8am - 6pm</td>
+                        <td>24 horas</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Inscripciones</th>
+                        <td>Lunes a Sábado / 9am - 5pm</td>
+                        <td>12 horas</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Pagos y Facturación</th>
+                        <td>Lunes a Viernes / 8am - 4pm</td>
+                        <td>48 horas</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Tiempo máximo estimado</td>
+                        <td>48 horas</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <hr>
         <p>A continuación puedes ver nuestro video de bienvenida:</p>
+            <figure>
+                <img src="https://www.ikusi.com/wp-content/uploads/2025/07/ikusi_ikusi_image_617-1000x667.jpg.webp"
+                    alt="Imagen ilustrativa de atención al cliente" width="300" height="300">
+                <br>
+                <label>Imagen ilustrativa de contacto.</label>
+            </figure>
 
-        <!-- Video Rickroll (como pediste) -->
-        <iframe width="560" height="315" 
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0"
-            title="Video de Bienvenida de Cursos Colombia S.A.S"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            loading="lazy">
-        </iframe>
+            <p>A continuación puedes ver nuestro video de bienvenida:</p>
 
-
-        <p>Nuestra ubicación en Medellín (Edificio CESDE):</p>
-
-        //mapa 
-        <iframe
-            width="600" height="450"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            title="Ubicación del edificio CESDE en Medellín">
-        </iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.082264627814!2d-75.57134372416413!3d6.252230026248911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428f737f59639%3A0x904321685a498522!2sCesde!5e0!3m2!1ses!2sco!4v1710000000000!5m2!1ses!2sco"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
 
     </section>
 
 </main>
 
-<footer>
-    <p>© 2025 Cursos Colombia S.A.S — Todos los derechos reservados.</p>
-</footer>
+    <footer>
+        <p>© 2025 Cursos Colombia S.A.S</p>
+    </footer>
 
 </body>
 </html>
